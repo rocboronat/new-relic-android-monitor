@@ -1,0 +1,9 @@
+<resources>
+
+    <!-- To not disturb working people -->
+    <color name="good_screen_background">@android:color/black</color>
+
+    <color name="bad_screen_background">#FF0000</color>
+
+    <color name="good_message_fontColor">#222222</color>
+</resources>

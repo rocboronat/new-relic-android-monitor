@@ -1,0 +1,10 @@
+android-empleo/app/src/main/res/values/com_crashlytics_export_strings.xml
+android-empleo/libraries/SmoothProgressBar/build
+android-empleo/libraries/SmoothProgressBar/gradle/
+android-empleo/libraries/apptentive/build/
+.DS_Store
+.idea/
+build/
+local.properties
+*.iml
+.gradle/

@@ -1,0 +1,12 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="good_message_textSize">20sp</dimen>
+    <dimen name="bad_message1_textSize">30sp</dimen>
+    <dimen name="bad_message2_textSize">50dp</dimen>
+
+    <dimen name="banana_width">100dp</dimen>
+    <dimen name="banana_margin">60dp</dimen>
+</resources>

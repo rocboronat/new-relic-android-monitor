@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Apdex monitor</string>
+
+    <string name="good_message">Apdex monitor</string>
+    <string name="bad_message1">Something bad at</string>
+    <string name="bad_message2">New Relic</string>
+
+</resources>

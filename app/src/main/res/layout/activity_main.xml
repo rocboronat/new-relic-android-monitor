@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/good_screen_background"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/l_ok"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/tv_imworking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/good_message"
+            android:textColor="@color/good_message_fontColor"
+            android:textSize="@dimen/good_message_textSize"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:layout_width="@dimen/banana_width"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="@dimen/banana_margin"
+            android:src="@drawable/banana" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/l_ko"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bad_screen_background"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/bad_message1"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/bad_message1_textSize" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/bad_message2"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/bad_message2_textSize" />
+    </LinearLayout>
+</RelativeLayout>
